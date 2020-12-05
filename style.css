@@ -13,6 +13,7 @@ body {
     width: 900px;
     margin: auto;
     padding-bottom: 30px;
+   /*border: 2px black solid;*/
 }
 
 .footer {
@@ -21,4 +22,63 @@ body {
     position: fixed;
     bottom: 0px;
     background-color: lightgrey;
+}
+
+.site-search {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgrey;
+    font-size: 12px;
+
+}
+
+.link-contanier, .header-links {
+    display: flex;
+    align-items: center;
+    /*border: 2px black solid;*/
+    background-color: lightgrey;
+}
+li {
+    display: inline-block;
+    
+}
+ul {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.sep {
+    margin: 0px 12px;
+    
+
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color:#005ca0;
+
+}
+.en {
+    font-size: 12px;
+    margin: 0px 12px;
+}
+.fotos-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    
+}
+.photo-tab {
+    width: 293px;
+    height: 355px;
+    
+    
+}
+.photo-tab img {
+    border-bottom-right-radius: 25px;
 }
